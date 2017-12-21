@@ -18,7 +18,10 @@ build.gradle
 gradle
 gradlew.bat
 gradlew
+gradle.properties
 
 # other
 eclipse
 run
+.gitattributes
+.gitignore
