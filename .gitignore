@@ -14,9 +14,10 @@ out
 .idea
 
 # gradle
-build
-.gradle
+build.gradle
 gradle
+gradlew.bat
+gradlew
 
 # other
 eclipse
