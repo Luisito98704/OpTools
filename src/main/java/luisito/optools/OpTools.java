@@ -22,6 +22,8 @@ public class OpTools {
 	public void preInit(FMLPreInitializationEvent event) {
 		ModTools.init();
 		ModTools.register();
+		
+		proxy.registerRenders();
 	}
 	
 	@EventHandler()
