@@ -14,4 +14,4 @@ I don't know, but I still have a lot to do.
 Not yet available, keep an eye out.
 
 # Progress
-`8%` Tier 1 Tools, Check.
+`20%` Tier 2 Tools, Check.
