@@ -12,6 +12,3 @@ I don't know, but I still have a lot to do.
 
 # Download
 Not yet available, keep an eye out.
-
-# Progress
-`20%` Tier 2 Tools, Check.
