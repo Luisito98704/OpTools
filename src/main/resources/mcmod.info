@@ -1,16 +1,10 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "modid": "optools",
+  "name": "Op Tools",
+  "description": "This is a mod that adds op tools to the game.",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "authorList": ["Luisito98704"]
 }
 ]
