@@ -1,5 +1,6 @@
 package luisito.optools;
 
+import luisito.optools.init.ModArmor;
 import luisito.optools.init.ModTools;
 import luisito.optools.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +22,9 @@ public class OpTools {
 	@EventHandler()
 	public void preInit(FMLPreInitializationEvent event) {
 		ModTools.init();
+		ModArmor.init();
 		ModTools.register();
+		ModArmor.registerRenders();
 		
 		proxy.registerRenders();
 	}
