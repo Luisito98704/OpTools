@@ -19,17 +19,28 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModTools {
 	
 	public static final ToolMaterial tier1Material = EnumHelper.addToolMaterial(Reference.MODID + 	":tier1", 3, 1650, 12.0F, 4.0F, 15);
+	public static final ToolMaterial tier2Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier2", 4, 2000, 24.0F, 8.0F, 24);
 	
 	public static ItemPickaxe tier1_pickaxe;
 	public static ItemModAxe tier1_axe;
 	public static ItemSpade tier1_shovel;
 	public static ItemSword tier1_sword;
+	
+	public static ItemPickaxe tier2_pickaxe;
+	public static ItemModAxe tier2_axe;
+	public static ItemSpade tier2_shovel;
+	public static ItemSword tier2_sword;
 
 	public static void init() {
 		tier1_pickaxe = new ItemModPickaxe(tier1Material, "tier1_pickaxe");
 		tier1_axe = new ItemModAxe(tier1Material, "tier1_axe");
 		tier1_shovel = new ItemModShovel(tier1Material, "tier1_shovel");
 		tier1_sword = new ItemModSword(tier1Material, "tier1_sword");
+		
+		tier2_pickaxe = new ItemModPickaxe(tier2Material, "tier2_pickaxe");
+		tier2_axe = new ItemModAxe(tier2Material, "tier2_axe");
+		tier2_shovel = new ItemModShovel(tier2Material, "tier2_shovel");
+		tier2_sword = new ItemModSword(tier2Material, "tier2_sword");
 	}
 	
 	public static void register() {
@@ -37,6 +48,11 @@ public class ModTools {
 		registerTool(tier1_axe);
 		registerTool(tier1_shovel);
 		registerTool(tier1_sword);
+		
+		registerTool(tier2_pickaxe);
+		registerTool(tier2_axe);
+		registerTool(tier2_shovel);
+		registerTool(tier2_sword);
 	}
 	
 	public static void registerRenders() {
@@ -44,6 +60,11 @@ public class ModTools {
 		registerRender(tier1_axe);
 		registerRender(tier1_shovel);
 		registerRender(tier1_sword);
+		
+		registerRender(tier2_pickaxe);
+		registerRender(tier2_axe);
+		registerRender(tier2_shovel);
+		registerRender(tier2_sword);
 	}
 	
 	private static void registerTool(Item item) {
