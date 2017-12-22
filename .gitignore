@@ -16,6 +16,7 @@ out
 # gradle
 build.gradle
 gradle
+.gradle
 gradlew.bat
 gradlew
 gradle.properties
@@ -24,4 +25,5 @@ gradle.properties
 eclipse
 run
 .gitattributes
+.gitignore
 .DS_Store
