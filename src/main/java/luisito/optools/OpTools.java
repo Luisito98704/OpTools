@@ -24,7 +24,7 @@ public class OpTools {
 		ModTools.init();
 		ModArmor.init();
 		ModTools.register();
-		ModArmor.registerRenders();
+		ModArmor.register();
 		
 		proxy.registerRenders();
 	}
