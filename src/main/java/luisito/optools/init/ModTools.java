@@ -19,10 +19,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModTools {
 	
-	public static final ToolMaterial tier1Material = EnumHelper.addToolMaterial(Reference.MODID + 	":tier1", 3, 2000, 10.0F, 10.0F, 15);
-	public static final ToolMaterial tier2Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier2", 4, 3000, 20.0F, 20.0F, 30);
-	public static final ToolMaterial tier3Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier3", 5, 6000, 40.0F, 40.0F, 45);
-	public static final ToolMaterial tier4Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier4", 6, 6000, 100.0F, 100.0F, 80);
+	public static final ToolMaterial tier1Material = EnumHelper.addToolMaterial(Reference.MODID + 	":tier1", 3, 2000, 10.0F, 15.0F, 15);
+	public static final ToolMaterial tier2Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier2", 4, 3000, 20.0F, 30.0F, 30);
+	public static final ToolMaterial tier3Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier3", 5, 6000, 40.0F, 60.0F, 45);
+	public static final ToolMaterial tier4Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier4", 6, 6000, 100.0F, 140.0F, 80);
 	
 	public static ItemPickaxe tier1_pickaxe;
 	public static ItemModAxe tier1_axe;

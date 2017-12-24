@@ -29,3 +29,5 @@ item.tier4_pickaxe.name=Tier 4 Op Pickaxe
 item.tier4_axe.name=Tier 4 Op Axe
 item.tier4_shovel.name=Tier 4 Op Shovel
 item.tier4_sword.name=Tier 4 Op Sword
+
+itemGroup.optoolstab=Op Tools
