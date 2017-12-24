@@ -15,3 +15,17 @@ item.tier2_helmet.name=Tier 2 Op Helmet
 item.tier2_chestplate.name=Tier 2 Op Chestplate
 item.tier2_leggings.name=Tier 2 Op Leggings
 item.tier2_boots.name=Tier 2 Op Boots
+
+item.tier3_pickaxe.name=Tier 3 Op Pickaxe
+item.tier3_axe.name=Tier 3 Op Axe
+item.tier3_shovel.name=Tier 3 Op Shovel
+item.tier3_sword.name=Tier 3 Op Sword
+item.tier3_helmet.name=Tier 3 Op Helmet
+item.tier3_chestplate.name=Tier 3 Op Chestplate
+item.tier3_leggings.name=Tier 3 Op Leggings
+item.tier3_boots.name=Tier 3 Op Boots
+
+item.tier4_pickaxe.name=Tier 4 Op Pickaxe
+item.tier4_axe.name=Tier 4 Op Axe
+item.tier4_shovel.name=Tier 4 Op Shovel
+item.tier4_sword.name=Tier 4 Op Sword

@@ -4,8 +4,8 @@ item.tier1_shovel.name=Pala Poderosa Nivel 1
 item.tier1_sword.name=Espada Poderosa Nivel 1
 item.tier1_helmet.name=Yelmo Poderoso Nivel 1
 item.tier1_chestplate.name=Peto Poderoso Nivel 1
-item.tier1_leggings.name=Grebas Poderoso Nivel 1
-item.tier1_boots.name=Botas Poderoso Nivel 1
+item.tier1_leggings.name=Grebas Poderosas Nivel 1
+item.tier1_boots.name=Botas Poderosas Nivel 1
 
 item.tier2_pickaxe.name=Pico Poderoso Nivel 2
 item.tier2_axe.name=Hacha Poderosa Nivel 2
@@ -13,5 +13,14 @@ item.tier2_shovel.name=Pala Poderosa Nivel 2
 item.tier2_sword.name=Espada Poderosa Nivel 2
 item.tier2_helmet.name=Yelmo Poderoso Nivel 2
 item.tier2_chestplate.name=Peto Poderoso Nivel 2
-item.tier2_leggings.name=Grebas Poderoso Nivel 2
-item.tier2_boots.name=Botas Poderoso Nivel 2
+item.tier2_leggings.name=Grebas Poderosas Nivel 2
+item.tier2_boots.name=Botas Poderosas Nivel 2
+
+item.tier3_pickaxe.name=Pico Poderoso Nivel 3
+item.tier3_axe.name=Hacha Poderosa Nivel 3
+item.tier3_shovel.name=Pala Poderosa Nivel 3
+item.tier3_sword.name=Espada Poderosa Nivel 3
+item.tier3_helmet.name=Yelmo Poderoso Nivel 3
+item.tier3_chestplate.name=Peto Poderoso Nivel 3
+item.tier3_leggings.name=Grebas Poderosas Nivel 3
+item.tier3_boots.name=Botas Poderosas Nivel 3
