@@ -18,9 +18,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModArmor {
 	
-	public static ArmorMaterial tier1Material = EnumHelper.addArmorMaterial("tier1", Reference.MODID + ":tier1", 2000, new int[] {10, 20, 20, 10}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 10.0F);
-	public static ArmorMaterial tier2Material = EnumHelper.addArmorMaterial("tier2", Reference.MODID + ":tier2", 4000, new int[] {20, 40, 40, 20}, 24, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 20.0F);
-	public static ArmorMaterial tier3Material = EnumHelper.addArmorMaterial("tier3", Reference.MODID + ":tier3", 600, new int[] {30, 60, 60, 30}, 36, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 40.0F);
+	public static ArmorMaterial tier1Material = EnumHelper.addArmorMaterial("tier1", Reference.MODID + ":tier1", 2000, new int[] {5, 15, 15, 5}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 15.0F);
+	public static ArmorMaterial tier2Material = EnumHelper.addArmorMaterial("tier2", Reference.MODID + ":tier2", 4000, new int[] {20, 30, 30, 20}, 24, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 30.0F);
+	public static ArmorMaterial tier3Material = EnumHelper.addArmorMaterial("tier3", Reference.MODID + ":tier3", 600, new int[] {50, 60, 60, 50}, 36, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 60.0F);
+	public static ArmorMaterial tier4Material = EnumHelper.addArmorMaterial("tier4", Reference.MODID + ":tier4", 12000, new int[] {130, 140, 140, 130}, 70, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 140.0F);
 	
 	public static ItemArmor tier1_helmet;
 	public static ItemArmor tier1_chestplate;
@@ -36,6 +37,11 @@ public class ModArmor {
 	public static ItemArmor tier3_chestplate;
 	public static ItemArmor tier3_leggings;
 	public static ItemArmor tier3_boots;
+	
+	public static ItemArmor tier4_helmet;
+	public static ItemArmor tier4_chestplate;
+	public static ItemArmor tier4_leggings;
+	public static ItemArmor tier4_boots;
 
 	public static void init() {
 		tier1_helmet = new ItemModArmor(tier1Material, 1, EntityEquipmentSlot.HEAD, "tier1_helmet");
@@ -52,6 +58,11 @@ public class ModArmor {
 		tier3_chestplate = new ItemModArmor(tier3Material, 1, EntityEquipmentSlot.CHEST, "tier3_chestplate", 0.1F);
 		tier3_leggings = new ItemModArmor(tier3Material, 2, EntityEquipmentSlot.LEGS, "tier3_leggings", 0.1F);
 		tier3_boots = new ItemModArmor(tier3Material, 1, EntityEquipmentSlot.FEET, "tier3_boots", 0.1F);
+		
+		tier4_helmet = new ItemModArmor(tier4Material, 1, EntityEquipmentSlot.HEAD, "tier4_helmet", 0.1F);
+		tier4_chestplate = new ItemModArmor(tier4Material, 1, EntityEquipmentSlot.CHEST, "tier4_chestplate", 0.1F);
+		tier4_leggings = new ItemModArmor(tier4Material, 2, EntityEquipmentSlot.LEGS, "tier4_leggings", 0.1F);
+		tier4_boots = new ItemModArmor(tier4Material, 1, EntityEquipmentSlot.FEET, "tier4_boots", 0.1F);
 	}
 	
 	public static void register() {
@@ -69,6 +80,11 @@ public class ModArmor {
 		registerArmor(tier3_chestplate);
 		registerArmor(tier3_leggings);
 		registerArmor(tier3_boots);
+		
+		registerArmor(tier4_helmet);
+		registerArmor(tier4_chestplate);
+		registerArmor(tier4_leggings);
+		registerArmor(tier4_boots);
 	}
 	
 	public static void registerRenders() {
@@ -86,6 +102,11 @@ public class ModArmor {
 		registerRender(tier3_chestplate);
 		registerRender(tier3_leggings);
 		registerRender(tier3_boots);
+		
+		registerRender(tier4_helmet);
+		registerRender(tier4_chestplate);
+		registerRender(tier4_leggings);
+		registerRender(tier4_boots);
 	}
 	
 	private static void registerArmor(Item item) {

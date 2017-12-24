@@ -3,6 +3,7 @@ package luisito.optools.item.armor;
 import luisito.optools.Reference;
 import luisito.optools.init.ModArmor;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
@@ -37,10 +38,15 @@ public class ItemModArmor extends ItemArmor {
 		Iterable<ItemStack> armor = player.getArmorInventoryList();
 		
 		int armorPieces = 0;
+		int chestplateLevel = 0;
 		
 		for(ItemStack stack : armor) {
 			if(stack.getItem().getClass().equals(this.getClass()) && (stack.getItem() != ModArmor.tier1_helmet || stack.getItem() != ModArmor.tier1_chestplate || stack.getItem() != ModArmor.tier1_leggings || stack.getItem() != ModArmor.tier1_boots))
 				armorPieces++;
+			if(stack.getItem().getClass().equals(this.getClass()) && stack.getItem() == ModArmor.tier3_chestplate)
+				chestplateLevel = 3;
+			else if(stack.getItem().getClass().equals(this.getClass()) && stack.getItem() == ModArmor.tier4_chestplate)
+				chestplateLevel = 4;
 		}
 		
 		if(armorPieces == 4) {
@@ -48,9 +54,10 @@ public class ItemModArmor extends ItemArmor {
 
 			player.capabilities.setFlySpeed(this.flySpeed);
 		} else {
-			player.capabilities.allowFlying = false;
-			
-			player.capabilities.setFlySpeed(0.0F);
+			if(!player.isCreative()) {
+				player.capabilities.allowFlying = false;
+				player.capabilities.isFlying = false;
+			}
 		}
 	}
 
