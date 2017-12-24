@@ -34,4 +34,13 @@ item.tier4_chestplate.name=Tier 4 Op Chestplate
 item.tier4_leggings.name=Tier 4 Op Leggings
 item.tier4_boots.name=Tier 4 Op Boots
 
+item.tier5_pickaxe.name=Tier 5 Op Pickaxe
+item.tier5_axe.name=Tier 5 Op Axe
+item.tier5_shovel.name=Tier 5 Op Shovel
+item.tier5_sword.name=Tier 5 Op Sword
+item.tier5_helmet.name=Tier 5 Op Helmet
+item.tier5_chestplate.name=Tier 5 Op Chestplate
+item.tier5_leggings.name=Tier 5 Op Leggings
+item.tier5_boots.name=Tier 5 Op Boots
+
 itemGroup.optoolstab=Op Tools

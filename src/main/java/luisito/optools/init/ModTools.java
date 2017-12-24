@@ -23,6 +23,7 @@ public class ModTools {
 	public static final ToolMaterial tier2Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier2", 4, 3000, 30.0F, 30.0F, 30);
 	public static final ToolMaterial tier3Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier3", 5, 6000, 60.0F, 60.0F, 45);
 	public static final ToolMaterial tier4Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier4", 6, 12000, 140.0F, 140.0F, 80);
+	public static final ToolMaterial tier5Material = EnumHelper.addToolMaterial(Reference.MODID + ":tier5", 7, 40000, 350.0F, 350.0F, 100);
 	
 	public static ItemPickaxe tier1_pickaxe;
 	public static ItemModAxe tier1_axe;
@@ -43,6 +44,11 @@ public class ModTools {
 	public static ItemModAxe tier4_axe;
 	public static ItemSpade tier4_shovel;
 	public static ItemSword tier4_sword;
+	
+	public static ItemPickaxe tier5_pickaxe;
+	public static ItemModAxe tier5_axe;
+	public static ItemSpade tier5_shovel;
+	public static ItemSword tier5_sword;
 
 	public static void init() {
 		tier1_pickaxe = new ItemModPickaxe(tier1Material, "tier1_pickaxe");
@@ -64,6 +70,11 @@ public class ModTools {
 		tier4_axe = new ItemModAxe(tier4Material, "tier4_axe");
 		tier4_shovel = new ItemModShovel(tier4Material, "tier4_shovel");
 		tier4_sword = new ItemModSword(tier4Material, "tier4_sword");
+		
+		tier5_pickaxe = new ItemModPickaxe(tier5Material, "tier5_pickaxe");
+		tier5_axe = new ItemModAxe(tier5Material, "tier5_axe");
+		tier5_shovel = new ItemModShovel(tier5Material, "tier5_shovel");
+		tier5_sword = new ItemModSword(tier5Material, "tier5_sword");
 	}
 	
 	public static void register() {
@@ -86,6 +97,11 @@ public class ModTools {
 		registerTool(tier4_axe);
 		registerTool(tier4_shovel);
 		registerTool(tier4_sword);
+		
+		registerTool(tier5_pickaxe);
+		registerTool(tier5_axe);
+		registerTool(tier5_shovel);
+		registerTool(tier5_sword);
 	}
 	
 	public static void registerRenders() {
@@ -108,6 +124,11 @@ public class ModTools {
 		registerRender(tier4_axe);
 		registerRender(tier4_shovel);
 		registerRender(tier4_sword);
+		
+		registerRender(tier5_pickaxe);
+		registerRender(tier5_axe);
+		registerRender(tier5_shovel);
+		registerRender(tier5_sword);
 	}
 	
 	private static void registerTool(Item item) {
