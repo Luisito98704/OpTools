@@ -53,11 +53,15 @@ public class ItemModArmor extends ItemArmor {
 			player.capabilities.allowFlying = this.canFly;
 
 			player.capabilities.setFlySpeed(this.flySpeed);
+			
+			if(this.canFly) 
+				player.addPotionEffect(new PotionEffect(Potion.getPotionById(23), 10, 255, false, false));
 		} else {
 			if(!player.isCreative()) {
 				player.capabilities.allowFlying = false;
 				player.capabilities.isFlying = false;
 			}
+			player.removePotionEffect(Potion.getPotionById(23));
 		}
 	}
 

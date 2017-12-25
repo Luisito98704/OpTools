@@ -1,4 +1,4 @@
-package luisito.optools.init;
+ package luisito.optools.init;
 
 import luisito.optools.OpTools;
 import luisito.optools.Reference;
@@ -18,11 +18,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModArmor {
 	
-	public static ArmorMaterial tier1Material = EnumHelper.addArmorMaterial("tier1", Reference.MODID + ":tier1", 2000, new int[] {5, 15, 15, 5}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 15.0F);
-	public static ArmorMaterial tier2Material = EnumHelper.addArmorMaterial("tier2", Reference.MODID + ":tier2", 4000, new int[] {20, 30, 30, 20}, 24, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 30.0F);
-	public static ArmorMaterial tier3Material = EnumHelper.addArmorMaterial("tier3", Reference.MODID + ":tier3", 600, new int[] {50, 60, 60, 50}, 36, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 60.0F);
-	public static ArmorMaterial tier4Material = EnumHelper.addArmorMaterial("tier4", Reference.MODID + ":tier4", 12000, new int[] {130, 140, 140, 130}, 70, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 140.0F);
-	public static ArmorMaterial tier5Material = EnumHelper.addArmorMaterial("tier5", Reference.MODID + ":tier5", 40000, new int[] {340, 350, 350, 340}, 300, SoundEvents.BLOCK_END_GATEWAY_SPAWN, 350.0F);
+	public static ArmorMaterial tier1Material = EnumHelper.addArmorMaterial("tier1", Reference.MODID + ":tier1", 2000, new int[] {200, 200, 200, 200}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 200.0F);
+	public static ArmorMaterial tier2Material = EnumHelper.addArmorMaterial("tier2", Reference.MODID + ":tier2", 4000, new int[] {280, 300, 300, 280}, 24, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 300.0F);
+	public static ArmorMaterial tier3Material = EnumHelper.addArmorMaterial("tier3", Reference.MODID + ":tier3", 600, new int[] {450, 500, 500, 450}, 36, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 500.0F);
+	public static ArmorMaterial tier4Material = EnumHelper.addArmorMaterial("tier4", Reference.MODID + ":tier4", 12000, new int[] {800, 1000, 1000, 800}, 70, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 1000.0F);
+	public static ArmorMaterial tier5Material = EnumHelper.addArmorMaterial("tier5", Reference.MODID + ":tier5", 40000, new int[] {4000, 4200, 4200, 4000}, 300, SoundEvents.BLOCK_END_GATEWAY_SPAWN, 4000.0F);
 	
 	public static ItemArmor tier1_helmet;
 	public static ItemArmor tier1_chestplate;
