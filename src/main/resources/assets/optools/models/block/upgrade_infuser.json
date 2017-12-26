@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "optools:blocks/upgrade_infuser_up",
+    "down": "optools:blocks/upgrade_infuser_up",
+    "north": "optools:blocks/upgrade_infuser_front",
+    "south": "optools:blocks/upgrade_infuser_side",
+    "east": "optools:blocks/upgrade_infuser_side",
+    "west": "optools:blocks/upgrade_infuser_side",
+    "particle": "optools:blocks/upgrade_infuser_side"
+  }
+}

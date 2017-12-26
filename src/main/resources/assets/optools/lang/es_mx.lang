@@ -43,4 +43,12 @@ item.tier5_chestplate.name=Peto Poderoso Nivel 5
 item.tier5_leggings.name=Grebas Poderosas Nivel 5
 item.tier5_boots.name=Botas Poderosas Nivel 5
 
+item.upgrade_fly.name=Mejora de Armadura
+item.upgrade_speed.name=Mejora de Armadura
+item.upgrade_fly_speed.name=Mejora de Armadura
+item.upgrade_regeneration.name=Mejora de Armadura
+item.upgrade_night_vision.name=Mejora de Armadura
+item.upgrade_water_breathing.name=Mejora de Armadura
+item.upgrade_jump_boost.name=Mejora de Armadura
+
 itemGroup.optoolstab=Herramientas Poderosas
