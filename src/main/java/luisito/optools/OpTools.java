@@ -1,6 +1,8 @@
 package luisito.optools;
 
 import luisito.optools.init.ModArmor;
+import luisito.optools.init.ModBlocks;
+import luisito.optools.init.ModItems;
 import luisito.optools.init.ModTools;
 import luisito.optools.proxy.CommonProxy;
 import luisito.optools.tabs.OpToolsTab;
@@ -25,10 +27,14 @@ public class OpTools {
 
 	@EventHandler()
 	public void preInit(FMLPreInitializationEvent event) {
+		ModItems.init();
 		ModTools.init();
 		ModArmor.init();
+		ModBlocks.init();
+		ModItems.register();
 		ModTools.register();
 		ModArmor.register();
+		ModBlocks.register();
 		
 		proxy.registerRenders();
 	}

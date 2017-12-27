@@ -37,12 +37,12 @@ public class ItemUpgrade extends Item {
 				continue;
 			}
 		}
-		return this.getUnlocalizedName() + "." + UpgradeTypes.FLY.getName();
+		return this.getUnlocalizedName() + "." + UpgradeTypes.BASE.getName();
 	}
 	
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
 		super.addInformation(stack, playerIn, tooltip, advanced);
-		tooltip.add(TextFormatting.GRAY + Utils.getLang().localize("upgrade_"+ UpgradeTypes.values()[stack.getMetadata()].getName() +".tooltip"));
+		tooltip.add(TextFormatting.AQUA + Utils.getLang().localize("upgrade_"+ UpgradeTypes.values()[stack.getMetadata()].getName() +".tooltip"));
 	}
 }

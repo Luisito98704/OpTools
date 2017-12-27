@@ -43,20 +43,22 @@ item.tier5_chestplate.name=Tier 5 Op Chestplate
 item.tier5_leggings.name=Tier 5 Op Leggings
 item.tier5_boots.name=Tier 5 Op Boots
 
-item.upgrade_fly.name=Armor Upgrade
-item.upgrade_speed.name=Armor Upgrade
-item.upgrade_fly_speed.name=Armor Upgrade
-item.upgrade_regeneration.name=Armor Upgrade
-item.upgrade_night_vision.name=Armor Upgrade
-item.upgrade_water_breathing.name=Armor Upgrade
-item.upgrade_jump_boost.name=Armor Upgrade
+item.upgrade.base.name=Base Upgrade
+item.upgrade.fly.name=Armor Upgrade
+item.upgrade.speed.name=Armor Upgrade
+item.upgrade.fly_speed.name=Armor Upgrade
+item.upgrade.regeneration.name=Armor Upgrade
+item.upgrade.night_vision.name=Armor Upgrade
+item.upgrade.water_breathing.name=Armor Upgrade
+item.upgrade.jump_boost.name=Armor Upgrade
 
+optools.upgrade_base.tooltip=
 optools.upgrade_fly.tooltip=FLY: When in all armor pieces, allows you to fly!
 optools.upgrade_speed.tooltip=SPEED: When in at least 1 armor piece, speeds you up!
 optools.upgrade_fly_speed.tooltip=FLY SPEED: When in at least 1 armor piece, makes you fly faster, requires flying armor!
-optools.upgrade_regeneration.tooltip=When in all armor pieces, allows you to fly!
-optools.upgrade_night_vision.tooltip=When in all armor pieces, allows you to fly!
-optools.upgrade_water_breathing.tooltip=When in all armor pieces, allows you to fly!
-optools.upgrade_jump_boost.tooltip=When in all armor pieces, allows you to fly!
+optools.upgrade_regeneration.tooltip=REGENERATION: When in at least 1 armor piece, gives you regeneration!
+optools.upgrade_night_vision.tooltip=NIGHT VISION: When in at least 1 armor piece, gives you night vision!
+optools.upgrade_water_breathing.tooltip=WATER BREATHING: When in at least 1 armor piece, gives you water breathing!
+optools.upgrade_jump_boost.tooltip=JUMP BOOST: When in at least 1 armor piece, gives you jump boost!
 
 itemGroup.optoolstab=Op Tools

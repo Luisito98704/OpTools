@@ -43,12 +43,22 @@ item.tier5_chestplate.name=Peto Poderoso Nivel 5
 item.tier5_leggings.name=Grebas Poderosas Nivel 5
 item.tier5_boots.name=Botas Poderosas Nivel 5
 
-item.upgrade_fly.name=Mejora de Armadura
-item.upgrade_speed.name=Mejora de Armadura
-item.upgrade_fly_speed.name=Mejora de Armadura
-item.upgrade_regeneration.name=Mejora de Armadura
-item.upgrade_night_vision.name=Mejora de Armadura
-item.upgrade_water_breathing.name=Mejora de Armadura
-item.upgrade_jump_boost.name=Mejora de Armadura
+item.upgrade.base.name=Base de Mejora
+item.upgrade.fly.name=Mejora de Armadura
+item.upgrade.speed.name=Mejora de Armadura
+item.upgrade.fly_speed.name=Mejora de Armadura
+item.upgrade.regeneration.name=Mejora de Armadura
+item.upgrade.night_vision.name=Mejora de Armadura
+item.upgrade.water_breathing.name=Mejora de Armadura
+item.upgrade.jump_boost.name=Mejora de Armadura
+
+optools.upgrade_base.tooltip=
+optools.upgrade_fly.tooltip=VOLAR: Cuándo esta en toda tu armadura puedes volar!
+optools.upgrade_speed.tooltip=VELOCIDAD: Cuándo esta al menos en un pedazo de armadura vas más rápido!
+optools.upgrade_fly_speed.tooltip=VELOCIDAD AÉREA: Cuándo esta al menos en un pedazo de armadura vas más rápido volando, necesitas armadura voladora!
+optools.upgrade_regeneration.tooltip=REGENERACIÓN: Cuándo esta al menos en un pedazo de armadura te regeneras!
+optools.upgrade_night_vision.tooltip=VISIÓN NOCTURNA: Cuándo esta al menos en un pedazo de armadura te da visión nocturna!
+optools.upgrade_water_breathing.tooltip=RESPIRACIÓN: Cuándo esta al menos en un pedazo de armadura te da respiracion!
+optools.upgrade_jump_boost.tooltip=SALTO: Cuándo esta al menos en un pedazo de armadura te da salto!
 
 itemGroup.optoolstab=Herramientas Poderosas

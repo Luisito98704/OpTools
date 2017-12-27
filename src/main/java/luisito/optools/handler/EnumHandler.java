@@ -1,17 +1,19 @@
 package luisito.optools.handler;
 
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.IStringSerializable;
 
 public class EnumHandler {
 
 	public static enum UpgradeTypes implements IStringSerializable{
-		FLY("fly", 0, true),
-		SPEED("speed", 1, true),
-		FLY_SPEED("fly_speed", 2, true),
-		REGENERATION("regen", 3, true),
-		NIGHT_VISION("night_vision", 4, true),
-		WATER_BREATHING("water_breathing", 5, true),
-		JUMP_BOOST("jump_boost", 6, true);
+		BASE("base", 0, false),
+		FLY("fly", 1, true),
+		SPEED("speed", 2, true),
+		FLY_SPEED("fly_speed", 3, true),
+		REGENERATION("regeneration", 4, true	),
+		NIGHT_VISION("night_vision", 5, true),
+		WATER_BREATHING("water_breathing", 6, true),
+		JUMP_BOOST("jump_boost", 7, true);
 		
 		private String name;
 		private int ID;
@@ -22,7 +24,7 @@ public class EnumHandler {
 			this.ID = ID;
 			this.armorUpgrade = armorUpgrade;
 		}
-		
+	
 		public int getID() {
 			return ID;
 		}
@@ -33,7 +35,7 @@ public class EnumHandler {
 
 		@Override
 		public String getName() {
-			return this.name();
+			return this.name;
 		}
 		
 		@Override
