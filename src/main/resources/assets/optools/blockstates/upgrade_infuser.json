@@ -1,5 +1,10 @@
 {
   "variants": {
-    "normal": {"model": "optools:upgrade_infuser"}
+    "facing=south": {"model": "optools:upgrade_infuser"},
+    "facing=north": {"model": "optools:upgrade_infuser", "y": 180},
+    "facing=east": {"model": "optools:upgrade_infuser", "y": 270},
+    "facing=west": {"model": "optools:upgrade_infuser", "y": 90},
+    "facing=up": {"model": "optools:upgrade_infuser"},
+    "facing=down": {"model": "optools:upgrade_infuser"}
   }
 }

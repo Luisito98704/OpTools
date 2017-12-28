@@ -37,11 +37,12 @@ public class OpTools {
 		ModBlocks.register();
 		
 		proxy.registerRenders();
+		proxy.registerTileEntities();
 	}
 	
 	@EventHandler()
 	public void init(FMLInitializationEvent event) {
-		
+		proxy.init();
 	}
 	
 	@EventHandler()

@@ -16,7 +16,7 @@ public class ModBlocks {
 	public static Block upgrade_infuser;
 
 	public static void init() {
-		upgrade_infuser = new BlockUpgradeInfuser("update_infuser");
+		upgrade_infuser = new BlockUpgradeInfuser("upgrade_infuser");
 	}
 	
 	public static void register() {

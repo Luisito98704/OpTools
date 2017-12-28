@@ -52,6 +52,13 @@ item.upgrade.night_vision.name=Armor Upgrade
 item.upgrade.water_breathing.name=Armor Upgrade
 item.upgrade.jump_boost.name=Armor Upgrade
 
+tile.upgrade_infuser.name=Upgrade Infuser
+
+container.upgrade_infuser=Upgrade Infuser
+
+gui.armor/tool.tooltip=Armor/Tool to upgrade
+gui.upgrade.tooltip=Upgrade
+
 optools.upgrade_base.tooltip=
 optools.upgrade_fly.tooltip=FLY: When in all armor pieces, allows you to fly!
 optools.upgrade_speed.tooltip=SPEED: When in at least 1 armor piece, speeds you up!

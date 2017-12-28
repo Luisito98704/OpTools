@@ -52,6 +52,13 @@ item.upgrade.night_vision.name=Mejora de Armadura
 item.upgrade.water_breathing.name=Mejora de Armadura
 item.upgrade.jump_boost.name=Mejora de Armadura
 
+tile.upgrade_infuser.name=Aplicador de mejoras
+
+container.upgrade_infuser=Aplicador de mejoras
+
+gui.armor/tool.tooltip=Armadura o Herramienta para mejorar
+gui.upgrade.tooltip=Mejora
+
 optools.upgrade_base.tooltip=
 optools.upgrade_fly.tooltip=VOLAR: Cuándo esta en toda tu armadura puedes volar!
 optools.upgrade_speed.tooltip=VELOCIDAD: Cuándo esta al menos en un pedazo de armadura vas más rápido!
